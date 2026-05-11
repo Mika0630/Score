@@ -7,3 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1KXh22ARE-wMzvJ0rfhgCg_Cp-Y59QHEh
 """
 
+score = input().split()
+failnum=0
+for i in score:
+  if int(i) < 60:
+    failnum = failnum+1
+print("不及格人數:",failnum)
