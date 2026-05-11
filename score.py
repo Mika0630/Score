@@ -15,6 +15,14 @@ for i in score:
   sum += int(i)
   if int(i) < 60:
     failnum = failnum+1
+print("不及格人數:",failnum)
+
+scores = []
+for i in score:
+  scores.append(int(i))
+
+print("最高分:", max(scores))
+print("最低分:", min(scores))
 l = len(score)
 avg = sum / l
 print("不及格人數:",failnum)
