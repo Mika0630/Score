@@ -12,7 +12,7 @@ failnum=0
 for i in score:
   if int(i) < 60:
     failnum = failnum+1
-print("不及格人數:",failnum)print("不及格人數:",failnum)
+print("不及格人數:",failnum)
 
 scores = []
 for i in score:
