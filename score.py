@@ -7,3 +7,17 @@ Original file is located at
     https://colab.research.google.com/drive/1KXh22ARE-wMzvJ0rfhgCg_Cp-Y59QHEh
 """
 
+<<<<<<< Updated upstream
+=======
+score = input().split()
+failnum=0
+sum = 0
+for i in score:
+  sum += int(i)
+  if int(i) < 60:
+    failnum = failnum+1
+l = len(score)
+avg = sum / l
+print("不及格人數:",failnum)
+print("平均數:", avg)
+>>>>>>> Stashed changes
