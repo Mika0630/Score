@@ -9,6 +9,7 @@ Original file is located at
 
 score = input().split()
 failnum=0
+<<<<<<< Updated upstream
 sum = 0
 for i in score:
   sum += int(i)
@@ -18,3 +19,9 @@ l = len(score)
 avg = sum / l
 print("不及格人數:",failnum)
 print("平均數:", avg)
+=======
+for i in score:
+  if int(i) < 60:
+    failnum = failnum+1
+print("不及格人數:",failnum)
+>>>>>>> Stashed changes
